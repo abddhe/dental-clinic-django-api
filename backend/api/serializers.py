@@ -2,6 +2,8 @@ from rest_framework import serializers
 from django.contrib.auth.models import User
 from doctors.models import Doctor
 from patients.models import Patient
+
+
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User

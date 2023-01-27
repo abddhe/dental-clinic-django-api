@@ -1,0 +1,19 @@
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #073144;
+
+}
+
+
+.list-item .list-item-icon {
+    margin: 5px 10px;
+    width: 25px;
+}

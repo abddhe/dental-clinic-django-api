@@ -1,0 +1,14 @@
+input:required {
+    position: relative !important;
+}
+
+input:required::after{
+    content: "dd";
+    background-color: red;
+    border: 1px solid red green black yellow;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
